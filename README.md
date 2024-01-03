@@ -1,21 +1,23 @@
-# Luke's Hugo Theme
+# Develcooking's Hugo Theme
 
-A simple Hugo theme I plan on using for my personal website, [Based.Cooking](https://based.cooking) and [LandChad.net](https://landchad.net).
+Ein einfaches Hugo Theme welches von [kochenmit.style](https://github.com/develcooking/kochenmit.style) genutzt werden soll
 
-## get started
+Original geschrieben von Luke Smith übersetztt von develcooking
+
+## Zum Loslegen
 
 ```sh
 hugo new site new-site
 cd new-site
-git clone https://github.com/lukesmithxyz/lugo themes/lugo
-echo "theme = 'lugo'" >> config.toml
-cp themes/lugo/static/style.css static/
+git clone https://github.com/develcooking/glulo themes/glulo
+echo "theme = 'glulo'" >> config.toml
+cp themes/glulo/static/style.css static/
 ```
 
-## stuff
+## Anderes
 
-- Makes one RSS feed for the entire site at `/index.xml`
-- Stylesheet is in `/style.css` and includes some important stuff for partials.
-- If a post is tagged, links to the tags are placed at the bottom of the post.
-- `nextprev.html` adds links to the Next and Previous articles to the bottom of a page.
-- `taglist.html` links all tags an article is tagged to for related content.
+- Erstelle einen RSS feed mit dem Eintrag in `/index.xml`
+- Die Styleforlage ist in `/style.css` plaziert und beinhaltet auch andere wichtige Dinge
+- Wenn ein Post Taggs enthält wird eine Liste mit ihnen am Ende des Posts plaziert
+- `nextprev.html` fügt einen Link zum Nächsten und Zuvorigen Artikel am Ende der Seite hinzu.
+- `taglist.html` verlinkt alle Tags, mit denen ein Artikel getaggt ist, für verwandte Inhalte.
